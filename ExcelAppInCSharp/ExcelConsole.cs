@@ -13,11 +13,7 @@ namespace ExcelAppInCSharp
 {
     public class ExcelConsole
     {
-        //Create COM Objects. Create a COM object for everything that is referenced
-        Excel.Application xlApp;
-        Excel.Workbook xlWorkbook;
-        Excel._Worksheet xlWorksheet;
-        Excel.Range xlRange;
+        
 
         public static void getExcelFile()
         {
